@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-5-13-to-16.xhtml">
-		<ignore>
-			<code>s-023</code>
+		<ignore code="s-023">
 			<reason>Bug in titlecase means that “To” is expected instead of the correct “to”.</reason>
 		</ignore>
 	</file>
