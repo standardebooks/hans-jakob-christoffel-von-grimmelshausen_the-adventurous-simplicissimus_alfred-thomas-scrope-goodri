@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/hans-jakob-christoffel-von-grimmelshausen/the-adventurous-simplicissimus/alfred-thomas-scrope-goodrick</dc:identifier>
 		<dc:date>2026-02-17T21:45:12Z</dc:date>
 		<meta property="dcterms:modified">2026-02-17T21:45:12Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -43,7 +44,7 @@
 		<dc:subject id="subject-2">German fiction -- Translations into English</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">A young man comes of age during the Thirty Years’ War in Germany.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The horrors of the Thirty Years’ War hadn’t yet touched the life of the young boy living in the Spessart in seventeenth-century Germany, but when he accidentally leads a group of Landsknechte back to the family farm, disaster strikes, leaving him homeless and wandering the forest. A chance meeting with a hermit gives him a name—Simplicius Simplicissimus—and a new-found appreciation for the Christian faith; but this comparative calm is but a brief respite before he’s thrown back into the wider context of the ongoing war. Now a soldier, Simplicissimus is tossed from one adventure to the next, each more incredible than the last.&lt;/p&gt;
@@ -54,26 +55,27 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/33858</dc:source>
 		<dc:source>https://archive.org/details/adventuroussimpl00grimrich</dc:source>
-		<meta property="se:production-notes">The frontispiece has been kept in this production because it has attracted a large amount of scholarly commentary over the years, and thus is considered to be a non-decorative illustration.</meta>
-		<meta property="se:word-count">161722</meta>
-		<meta property="se:reading-ease.flesch">56.05</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Simplicius_Simplicissimus</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/hans-jakob-christoffel-von-grimmelshausen_the-adventurous-simplicissimus_alfred-thomas-scrope-goodri</meta>
+		<meta property="schema:wordCount">161722</meta>
+		<meta property="schema:educationalLevel">56.05</meta>
+		<link href="https://en.wikipedia.org/wiki/Simplicius_Simplicissimus" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/hans-jakob-christoffel-von-grimmelshausen_the-adventurous-simplicissimus_alfred-thomas-scrope-goodri" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Hans Jakob Christoffel von Grimmelshausen</dc:creator>
 		<meta property="file-as" refines="#author">von Grimmelshausen, Hans Jakob Christoffel</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Hans_Jakob_Christoffel_von_Grimmelshausen</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n81050721</meta>
+		<link href="https://en.wikipedia.org/wiki/Hans_Jakob_Christoffel_von_Grimmelshausen" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n81050721.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">Alfred Thomas Scrope Goodrick</dc:contributor>
 		<meta property="file-as" refines="#translator">Goodrick, Alfred Thomas Scrope</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n2021060714</meta>
+		<link href="https://id.loc.gov/authorities/names/n2021060714.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Marx Reichlich</dc:contributor>
 		<meta property="file-as" refines="#artist">Reichlich, Marx</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Marx_Reichlich</meta>
+		<link href="https://en.wikipedia.org/wiki/Marx_Reichlich" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="illustrator">Anonymous</dc:contributor>
 		<meta property="file-as" refines="#illustrator">Anonymous</meta>
@@ -83,7 +85,7 @@
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com/</meta>
+		<link href="https://www.robinwhittleton.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -93,7 +95,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">wat</meta>
 		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
