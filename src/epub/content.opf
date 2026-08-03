@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/hans-jakob-christoffel-von-grimmelshausen/the-adventurous-simplicissimus/alfred-thomas-scrope-goodrick</dc:identifier>
 		<dc:date>2026-02-17T21:45:12Z</dc:date>
@@ -45,13 +45,13 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">A young man comes of age during the Thirty Years’ War in Germany.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A young man comes of age during the Thirty Years’ War in Germany.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;The horrors of the Thirty Years’ War hadn’t yet touched the life of the young boy living in the Spessart in seventeenth-century Germany, but when he accidentally leads a group of Landsknechte back to the family farm, disaster strikes, leaving him homeless and wandering the forest. A chance meeting with a hermit gives him a name—Simplicius Simplicissimus—and a new-found appreciation for the Christian faith; but this comparative calm is but a brief respite before he’s thrown back into the wider context of the ongoing war. Now a soldier, Simplicissimus is tossed from one adventure to the next, each more incredible than the last.&lt;/p&gt;
 			&lt;p&gt;Published in 1668 and 1669, &lt;i&gt;The Adventurous Simplicissimus&lt;/i&gt; has had an enduring legacy both as a satirical picaresque novel, and as a historical recollection of the injustices of the Thirty Years’ War. &lt;a href="https://standardebooks.org/ebooks/hans-jakob-christoffel-von-grimmelshausen"&gt;Hans Jakob Christoffel von Grimmelshausen&lt;/a&gt; had been been a soldier during that conflict, but in later life he become a magistrate, giving him the opportunity to write and to reflect on his own experiences—something that’s also a key part of Simplicissimus’s own approach.&lt;/p&gt;
 			&lt;p&gt;These stories have received much praise over the years, and have even been considered to be the genesis of the adventure novel genre. &lt;a href="https://standardebooks.org/ebooks/thomas-mann"&gt;Thomas Mann&lt;/a&gt; was a fan of its “involuntary magnificence” and Johann Strauss adapted the story into an operetta.&lt;/p&gt;
 			&lt;p&gt;The 1912 translation presented here is somewhat idiosyncratic; Goodrick seems to have chosen to simply decline to translate the handful of parts he found most boring or scandalous, and leaves out the majority of the sixth book as “monotonous,” with the exception of an appendix containing the final few chapters in which Simplicissimus is stranded on an uninhabited island. It would take another fifty years for an unexpurgated English translation to be published.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/33858</dc:source>
 		<dc:source>https://archive.org/details/adventuroussimpl00grimrich</dc:source>
