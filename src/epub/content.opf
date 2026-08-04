@@ -45,7 +45,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:abstract>A young man comes of age during the Thirty Years’ War in Germany.</dc:abstract>
+		<meta property="schema:abstract">A young man comes of age during the Thirty Years’ War in Germany.</meta>
 		<dc:description>
 			&lt;p&gt;The horrors of the Thirty Years’ War hadn’t yet touched the life of the young boy living in the Spessart in seventeenth-century Germany, but when he accidentally leads a group of Landsknechte back to the family farm, disaster strikes, leaving him homeless and wandering the forest. A chance meeting with a hermit gives him a name—Simplicius Simplicissimus—and a new-found appreciation for the Christian faith; but this comparative calm is but a brief respite before he’s thrown back into the wider context of the ongoing war. Now a soldier, Simplicissimus is tossed from one adventure to the next, each more incredible than the last.&lt;/p&gt;
 			&lt;p&gt;Published in 1668 and 1669, &lt;i&gt;The Adventurous Simplicissimus&lt;/i&gt; has had an enduring legacy both as a satirical picaresque novel, and as a historical recollection of the injustices of the Thirty Years’ War. &lt;a href="https://standardebooks.org/ebooks/hans-jakob-christoffel-von-grimmelshausen"&gt;Hans Jakob Christoffel von Grimmelshausen&lt;/a&gt; had been been a soldier during that conflict, but in later life he become a magistrate, giving him the opportunity to write and to reflect on his own experiences—something that’s also a key part of Simplicissimus’s own approach.&lt;/p&gt;
