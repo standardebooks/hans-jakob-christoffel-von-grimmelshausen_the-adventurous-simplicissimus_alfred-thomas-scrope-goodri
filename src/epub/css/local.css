@@ -172,10 +172,6 @@ table[epub|type~="z3998:drama"]{
 }
 
 /* “Chorus” header in one song */
-#chapter-1-7 > [epub|type~="z3998:song"]{
-	display: flow-root;
-}
-
 #chapter-1-7 > [epub|type~="z3998:song"] > p:nth-child(2){
 	float: left;
 }
